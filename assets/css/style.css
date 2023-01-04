@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: .1;
+    font-size: 25px;
+    background-color: rgb(26, 43, 79);
+    color: white;
+    height: 200px;
+}
+#start_button{
+    font-size: 30px;
+}
+.button{
+    background: rgb(255,54,0);
+background: linear-gradient(90deg, rgb(255, 149, 0) 0%, rgba(255,209,18,1) 54%, rgba(255, 149, 0) 100%);
+height: 60px;
+    width: 180px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.lighter_gradient{
+background: linear-gradient(90deg, rgb(223, 183, 128) 0%, rgb(210, 185, 149) 54%, rgba(223, 183, 128) 100%);
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#game_div{
+    width: 60%;
+    height: 399px;
+    margin: 20px
+}
+#score_div{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+#wins_losses_container{
+    display: flex;
+    height: 20%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    background-color: rgb(26, 43, 79);
+    height: 80%;
+    margin: 20px;
+    bottom: 0px;
+}
+#timer h1{
+    font-size: 25px;
+}
+#wins_losses_container{
+    
+}
